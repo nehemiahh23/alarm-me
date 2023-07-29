@@ -2,9 +2,9 @@
     "alarms": [
         {
             "id": 1,
-            "enabled": false,
+            "enabled": true,
             "time": "10:13 PM",
-            "rpt-days": [],
+            "rptDays": [],
             "missions": [1, 2, 3],
             "sound": 1,
             "snooze": false,
@@ -14,21 +14,21 @@
             "id": 2,
             "enabled": false,
             "time": "06:00 AM",
-            "rpt-days": [2, 3, 4, 5, 6],
+            "rptDays": [2, 3, 4, 5, 6],
             "missions": [1, 2, 3],
             "sound": 1,
             "snooze": false,
-            "label": "WAKE UP please"
+            "label": "deez nuts"
         },
         {
-            "id": 1,
+            "id": 3,
             "enabled": false,
             "time": "12:00 PM",
-            "rpt-days": [1],
+            "rptDays": [1],
             "missions": [1, 2, 3],
             "sound": 1,
             "snooze": false,
-            "label": "WAKE UP please"
+            "label": ""
         }
     ]
 }

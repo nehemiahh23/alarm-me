@@ -1,8 +1,13 @@
 import React from 'react'
 
-function AlarmCard() {
+function AlarmCard({ enabled, time, rptDays, label }) { 
+
   return (
-    <div>AlarmCard</div>
+    <div>
+        { enabled ? "True" : "False" }
+        { time }
+        { label }
+    </div>
   )
 }
 
