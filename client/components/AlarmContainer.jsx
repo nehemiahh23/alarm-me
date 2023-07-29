@@ -11,7 +11,7 @@ function AlarmContainer() {
         .then(data => setAlarms(data))
     }, [])
 
-    const mapped = alarms.map(alarm => <AlarmCard key={alarm.id} enabled={alarm.enabled} time={alarm.time} rptDays={alarm.rptDays} label={alarm.label} />)
+    const mapped = alarms.map(alarm => <AlarmCard key={alarm.id} id={alarm.id} enabled={alarm.enabled} time={alarm.time} rptDays={alarm.rptDays} label={alarm.label} />)
 
   return (
     <>

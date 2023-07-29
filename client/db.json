@@ -4,11 +4,11 @@
             "id": 1,
             "enabled": true,
             "time": "10:13 PM",
-            "rptDays": [],
+            "rptDays": [2, 5, 7],
             "missions": [1, 2, 3],
             "sound": 1,
             "snooze": false,
-            "label": "WAKE UP please"
+            "label": "WAKE UP"
         },
         {
             "id": 2,
@@ -18,13 +18,13 @@
             "missions": [1, 2, 3],
             "sound": 1,
             "snooze": false,
-            "label": "deez nuts"
+            "label": "GO TO SLEEP"
         },
         {
             "id": 3,
             "enabled": false,
             "time": "12:00 PM",
-            "rptDays": [1],
+            "rptDays": [1, 2, 3, 4, 5, 6, 7],
             "missions": [1, 2, 3],
             "sound": 1,
             "snooze": false,
