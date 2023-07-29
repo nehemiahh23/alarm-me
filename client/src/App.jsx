@@ -11,7 +11,6 @@ function App() {
       <Next/>
       <Weather/>
       <AlarmContainer/>
-      <AlarmCard/>
     </>
   )
 }
