@@ -9,10 +9,11 @@ function App() {
   const [lat, setLat] = useState(0)
   const [long, setLong] = useState(0)
 
+  // #region geolocation
   if (navigator.geolocation) {
     navigator.geolocation.getCurrentPosition(success, error);
   } else {
-    console.log("Geolocation not supported");
+    console.log("Geolocation not supported by this browser");
   }
   
   function success(position) {
@@ -23,6 +24,7 @@ function App() {
   function error() {
     console.log("Unable to retrieve your location");
   }
+  // #endregion
 
   return (
     <>
