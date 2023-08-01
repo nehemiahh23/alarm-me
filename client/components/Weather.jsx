@@ -1,6 +1,12 @@
 import { useEffect, useState } from 'react'
 
-function Weather({ lat, long, weather, setWeather }) {
+function Weather({ lat, long }) {
+
+  const [weather, setWeather] = useState({
+    hourly: {
+      temperature_2m: []
+    }
+  })
 
   const current = new Date()
   const parsed = current.getHours()
@@ -10,8 +16,6 @@ function Weather({ lat, long, weather, setWeather }) {
     .then(r => r.json())
     .then(data => setWeather(data))
   }, [])
-
-  console.log(weather)
 
   return (
     <>
