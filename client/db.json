@@ -3,7 +3,7 @@
         {
             "id": 1,
             "enabled": true,
-            "time": "10:13 PM",
+            "time": 1691028780000,
             "rptDays": [2, 5, 7],
             "missions": [1, 2, 3],
             "sound": 1,
@@ -13,7 +13,7 @@
         {
             "id": 2,
             "enabled": false,
-            "time": "06:00 AM",
+            "time": 1691056800000,
             "rptDays": [2, 3, 4, 5, 6],
             "missions": [1, 2, 3],
             "sound": 1,
@@ -23,7 +23,7 @@
         {
             "id": 3,
             "enabled": false,
-            "time": "12:00 PM",
+            "time": 1691078400000,
             "rptDays": [1, 2, 3, 4, 5, 6, 7],
             "missions": [1, 2, 3],
             "sound": 1,
