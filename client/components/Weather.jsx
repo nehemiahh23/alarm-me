@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 
-function Weather({ lat, long }) {
+function Weather({ lat, long, current }) {
 
   const [weather, setWeather] = useState({
     hourly: {
@@ -8,7 +8,6 @@ function Weather({ lat, long }) {
     }
   })
 
-  const current = new Date()
   const parsed = current.getHours()
 
   useEffect(() => {
