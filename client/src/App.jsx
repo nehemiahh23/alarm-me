@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react"
-import Next from "../components/Next.jsx"
-import Weather from "../components/Weather.jsx"
-import AlarmContainer from "../components/AlarmContainer.jsx"
+import Next from "./components/Next.jsx"
+import Weather from "./components/Weather.jsx"
+import AlarmContainer from "./components/AlarmContainer.jsx"
 
 function App() {
 
